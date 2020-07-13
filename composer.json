@@ -5,7 +5,6 @@
     "keywords": ["doctrine2", "extentions", "nested set"],
     "homepage": "https://github.com/cbsi/doctrine2-nestedset",
     "license": "GPL 2.1",
-
     "authors": [
         {
             "name": "Brandon Turner",
@@ -16,20 +15,17 @@
             "homepage": "https://github.com/cbsi/doctrine2-nestedset/graphs/contributors"
         }
     ],
-
     "require": {
         "php": ">=5.3.2"
     },
-
+    "version": "1.0.0",
     "minimum-stability": "stable",
-
     "autoload": {
         "psr-0": {
             "DoctrineExtensions\\NestedSet\\Tests": "tests/",
             "DoctrineExtensions\\NestedSet": "lib/"
         }
     },
-
     "require-dev": {
         "doctrine/common": "*"
     }
